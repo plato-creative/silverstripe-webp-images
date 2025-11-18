@@ -1,6 +1,6 @@
 ARG ALPINE_VERSION=3.16
 
-FROM php:8.1-cli-alpine$ALPINE_VERSION AS php-cli
+FROM php:8.3-cli-alpine$ALPINE_VERSION AS php-cli
 
 RUN apk add php make --no-cache
 
